@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktomas_sanchez_cms=self.webpackChunktomas_sanchez_cms||[]).push([[4299],{9683:(P,s,e)=>{e.r(s),e.d(s,{default:()=>a});var t=e(67294),_=e(95489),i=e.n(_),n=e(87751),E=e(24583);const a=()=>t.createElement(_.CheckPagePermissions,{permissions:n.Z.settings["api-tokens"].create},t.createElement(E.Z,null))}}]);

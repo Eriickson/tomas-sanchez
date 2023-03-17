@@ -1,0 +1,58 @@
+{
+    "kind": "collectionType",
+    "collectionName": "engravings",
+    "info": {
+        "singularName": "engraving",
+        "pluralName": "engravings",
+        "displayName": "Engravings"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "edition": {
+            "type": "string",
+            "required": true
+        },
+        "unitsSold": {
+            "type": "integer"
+        },
+        "publishDate": {
+            "type": "date"
+        },
+        "authors": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::author.author",
+            "mappedBy": "engraving"
+        },
+        "images": {
+            "type": "component",
+            "repeatable": false,
+            "component": "global.images"
+        },
+        "dimensions": {
+            "type": "component",
+            "repeatable": false,
+            "component": "global.dimension"
+        },
+        "description": {
+            "type": "text"
+        },
+        "productDetails": {
+            "type": "component",
+            "repeatable": false,
+            "component": "global.product-details"
+        },
+        "certification": {
+            "type": "component",
+            "repeatable": false,
+            "component": "global.certification"
+        }
+    }
+}

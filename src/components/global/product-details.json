@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_global_product_details",
+    "info": {
+        "displayName": "Product Details"
+    },
+    "options": {},
+    "attributes": {
+        "price": {
+            "type": "float",
+            "required": true
+        },
+        "percentDiscount": {
+            "type": "float",
+            "required": true
+        },
+        "fixedDiscount": {
+            "type": "float",
+            "required": true
+        },
+        "currentlyAvailable": {
+            "type": "boolean",
+            "default": true,
+            "required": true
+        }
+    }
+}

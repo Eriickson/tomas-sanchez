@@ -1,0 +1,61 @@
+{
+    "kind": "collectionType",
+    "collectionName": "prints",
+    "info": {
+        "singularName": "print",
+        "pluralName": "prints",
+        "displayName": "Prints"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "edition": {
+            "type": "string"
+        },
+        "totalUnits": {
+            "type": "integer",
+            "required": true
+        },
+        "unitsSold": {
+            "type": "integer"
+        },
+        "publishDate": {
+            "type": "date"
+        },
+        "authors": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::author.author",
+            "mappedBy": "print"
+        },
+        "images": {
+            "type": "component",
+            "repeatable": false,
+            "component": "global.images"
+        },
+        "dimensions": {
+            "type": "component",
+            "repeatable": false,
+            "component": "global.dimension"
+        },
+        "description": {
+            "type": "text"
+        },
+        "productDetails": {
+            "type": "component",
+            "repeatable": false,
+            "component": "global.product-details"
+        },
+        "certification": {
+            "type": "component",
+            "repeatable": false,
+            "component": "global.certification"
+        }
+    }
+}

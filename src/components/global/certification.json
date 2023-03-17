@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_global_certifications",
+    "info": {
+        "displayName": "Certification"
+    },
+    "options": {},
+    "attributes": {
+        "certificationNumber": {
+            "type": "integer",
+            "required": true
+        },
+        "certificationPDF": {
+            "allowedTypes": [
+                "files"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        }
+    }
+}

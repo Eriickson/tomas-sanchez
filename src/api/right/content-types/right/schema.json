@@ -1,0 +1,18 @@
+{
+    "kind": "singleType",
+    "collectionName": "rights",
+    "info": {
+        "singularName": "right",
+        "pluralName": "rights",
+        "displayName": "Rights"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "rights": {
+            "type": "richtext"
+        }
+    }
+}

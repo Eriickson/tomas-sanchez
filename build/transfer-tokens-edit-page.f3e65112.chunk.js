@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktomas_sanchez_cms=self.webpackChunktomas_sanchez_cms||[]).push([[2492],{9452:(r,s,e)=>{e.r(s),e.d(s,{default:()=>a});var t=e(67294),n=e(95489),P=e.n(n),_=e(87751),E=e(53219);const a=()=>t.createElement(n.CheckPagePermissions,{permissions:_.Z.settings["transfer-tokens"].read},t.createElement(E.Z,null))}}]);

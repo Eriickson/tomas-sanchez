@@ -1,0 +1,27 @@
+{
+    "collectionName": "components_global_dimensions",
+    "info": {
+        "displayName": "Dimension",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "height": {
+            "type": "integer"
+        },
+        "width": {
+            "type": "integer"
+        },
+        "unit": {
+            "type": "enumeration",
+            "enum": [
+                "Milimeter",
+                "Centimeter",
+                "Meter",
+                "Inch",
+                "Feet",
+                "Yard"
+            ]
+        }
+    }
+}
